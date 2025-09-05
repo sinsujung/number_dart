@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>숫자 맞추기</title>
+</head>
+<body>
+    <div>
+        <button id="start-pick-num" onclick="handleStart()">start!!</button>
+    </div>
+    <div>
+        <input type="number" id="random-num" placeholder="숫자를 입력하세요."/>
+        <button onclick="handleInputNum(document.getElementById('random-num').value)">입력</button>
+        <button id="stop-pick-num" onclick="handlebreak()">그만</button>
+    </div>
+    <script src="numberDart.js"></script>
+</body>
+</html>
