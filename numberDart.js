@@ -1,7 +1,5 @@
 /**
  * 1. 실행 시 컴퓨터가 숫자 하나 뽑기
- * 2. 숫자 입력 받기(node.js 사용)
- * 3. 
  */
 let pickNum;
 let repeat = true;
@@ -55,5 +53,3 @@ const handleInputNum = (inputValue) => {
 const comparison = () => {
     alert("click -> start!!");
 };
-
-// comparison();
